@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2",
+    "express": "^5.2.1",
+    "numpy-parser": "^1.2.3"
+  }
+}

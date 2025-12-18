@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Semantic Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Semantic Search Text Retrieval</h1>
+      <p class="subtitle">Search over saved training chunks using Euclidean distance and cosine similarity.</p>
+
+      <div class="grid">
+        <div class="card">
+          <label for="prompt">Prompt user input</label>
+          <textarea id="prompt">What is the capital of Finland?</textarea>
+
+          <div class="row">
+            <div>
+              <label for="topk">Top K</label>
+              <input id="topk" type="number" value="4" min="1" max="10" />
+            </div>
+
+            <button id="btn">Search</button>
+          </div>
+
+          <div id="status" class="status"></div>
+        </div>
+
+        <div class="card">
+          <div class="meta">
+            <div><span class="metaLabel">Model</span> <span id="modelName">model: "Xenova/all-MiniLM-L6-v2",
+            </span></div>
+            <div><span class="metaLabel">Embedding dim</span> <span id="embedDim">unknown</span></div>
+          </div>
+
+          <div id="results"></div>
+        </div>
+      </div>
+
+      <details class="rawBox">
+        <summary>Raw JSON</summary>
+        <pre id="raw"></pre>
+      </details>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
