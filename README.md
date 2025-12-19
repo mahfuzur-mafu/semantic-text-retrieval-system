@@ -120,3 +120,14 @@ This system can be extended to:
 4. RAG style pipelines
 
 5. Content similarity and clusterin
+6. 
+
+
+## Interface 
+
+<img width="1462" height="798" alt="image" src="https://github.com/user-attachments/assets/9feb2c60-3b62-45f5-adb0-8cfccc5037b0" />
+
+
+<img width="1462" height="798" alt="image" src="https://github.com/user-attachments/assets/88325897-6e96-49b9-bd33-967424f04e5b" />
+
+
