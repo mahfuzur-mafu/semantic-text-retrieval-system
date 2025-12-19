@@ -131,3 +131,7 @@ This system can be extended to:
 <img width="1462" height="798" alt="image" src="https://github.com/user-attachments/assets/88325897-6e96-49b9-bd33-967424f04e5b" />
 
 
+Semantic Text Retrieval System is a three-column web interface where the left panel collects the user query, the middle panel displays ranked semantic search results, and the right panel shows the full raw JSON response from the backend.
+This design clearly separates user interaction, semantic interpretation, and system output, making the pipeline transparent and easy to extend.
+
+
