@@ -5,7 +5,7 @@
 [![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-all--MiniLM--L6--v2-orange)](https://www.sbert.net/)
 [![Hugging Face Datasets](https://img.shields.io/badge/Hugging_Face-Datasets-green)](https://huggingface.co/datasets)
 
-##Overview
+## Overview
 
 This project implements an end to end semantic text retrieval system based on sentence embeddings and vector similarity.
 Instead of relying on keyword matching, the system retrieves semantically similar text by comparing vector representations of text chunks and user prompts.
